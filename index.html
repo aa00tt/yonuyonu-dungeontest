@@ -2757,6 +2757,7 @@
     @media (max-width: 780px) {
       body.normal-active {
         overflow: hidden;
+        overflow-x: hidden;
         min-height: 100svh;
       }
 
@@ -2765,18 +2766,21 @@
         min-height: 100dvh;
         padding: 12px 8px calc(6px + env(safe-area-inset-bottom, 0px));
         place-items: start center;
+        overflow-x: hidden;
       }
 
       body.normal-active .card {
         height: calc(100svh - 18px - env(safe-area-inset-bottom, 0px));
         height: calc(100dvh - 18px - env(safe-area-inset-bottom, 0px));
         overflow: hidden;
+        overflow-x: hidden;
       }
 
       body.normal-active .card-inner {
         height: 100%;
         padding: calc(env(safe-area-inset-top, 0px) + 8px) 8px calc(env(safe-area-inset-bottom, 0px) + 8px);
         overflow: auto;
+        overflow-x: hidden;
         -webkit-overflow-scrolling: touch;
       }
 
@@ -2784,7 +2788,8 @@
       #difficultyScreen:not([hidden]),
       #allCountScreen:not([hidden]) {
         height: 100%;
-        overflow: auto;
+        overflow-x: hidden;
+        overflow-y: auto;
         -webkit-overflow-scrolling: touch;
       }
 
