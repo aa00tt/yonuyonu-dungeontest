@@ -1,0 +1,19 @@
+{
+  "name": "N2単語ダンジョンクエスト",
+  "short_name": "N2ダンジョン",
+  "description": "N2単語をダンジョンクエスト方式で学べるRPG風クイズアプリ",
+  "start_url": "./indexのコピー.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#130d18",
+  "background_color": "#070504",
+  "icons": [
+    {
+      "src": "./icon-dungeon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
