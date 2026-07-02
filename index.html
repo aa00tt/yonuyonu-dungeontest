@@ -2781,6 +2781,7 @@
         padding: calc(env(safe-area-inset-top, 0px) + 8px) 8px calc(env(safe-area-inset-bottom, 0px) + 8px);
         overflow: auto;
         overflow-x: hidden;
+        overflow-x: clip;
         -webkit-overflow-scrolling: touch;
       }
 
@@ -2789,8 +2790,40 @@
       #allCountScreen:not([hidden]) {
         height: 100%;
         overflow-x: hidden;
+        overflow-x: clip;
         overflow-y: auto;
+        touch-action: pan-y;
         -webkit-overflow-scrolling: touch;
+      }
+
+      body.normal-active .set-selection {
+        overflow-x: hidden;
+        overflow-x: clip;
+        touch-action: pan-y;
+      }
+
+      body.normal-active .set-list {
+        overflow-x: hidden;
+        overflow-x: clip;
+        touch-action: pan-y;
+      }
+
+      body.normal-active .set-button {
+        overflow-x: hidden;
+        overflow-x: clip;
+      }
+
+      body.normal-active .stage-button-main {
+        flex-wrap: wrap;
+      }
+
+      body.normal-active .stage-button-title {
+        flex: 1 1 auto;
+        min-width: 0;
+      }
+
+      body.normal-active .stars {
+        flex-shrink: 0;
       }
 
       body.quiz-active {
