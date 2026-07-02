@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="N2単語ダンジョンクエスト">
+  <rect width="512" height="512" rx="96" fill="#070504"/>
+  <path d="M64 392V120h384v272H64Z" fill="#17110f" stroke="#d9a441" stroke-width="18"/>
+  <path d="M94 360V154h324v206H94Z" fill="#231918"/>
+  <path d="M112 182h288M112 232h288M112 282h288M160 154v206M256 154v206M352 154v206" stroke="#4b3424" stroke-width="10" opacity=".9"/>
+  <path d="M256 126c42 0 76 34 76 76v158H180V202c0-42 34-76 76-76Z" fill="#080506" stroke="#7a3d20" stroke-width="14"/>
+  <path d="M134 124c24 28 26 56 6 86-20-30-18-58-6-86Zm244 0c24 28 26 56 6 86-20-30-18-58-6-86Z" fill="#f59e0b"/>
+  <path d="M128 190c18-18 23-41 6-66M372 190c18-18 23-41 6-66" stroke="#ffd27a" stroke-width="8" stroke-linecap="round"/>
+  <text x="256" y="430" text-anchor="middle" font-family="system-ui, sans-serif" font-size="78" font-weight="900" fill="#f4d08b">N2</text>
+</svg>
